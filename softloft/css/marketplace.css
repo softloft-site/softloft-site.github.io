@@ -1,0 +1,30 @@
+
+.discriptbank{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: auto;
+}
+.imgbut{
+    border: 0px ;
+    padding: 0px;
+
+}
+
+strong{
+    font-weight: bold;
+}
+.buy{
+    width: 100%;
+}
+
+@media (max-width: 968px){
+    .discriptbank{
+        grid-template-columns: 1fr;
+    }
+}
+
+.slide{
+    min-height: 0px !important;
+    height: 100% !important;
+}
